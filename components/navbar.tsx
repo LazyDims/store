@@ -11,9 +11,9 @@ const Navbar = async () => {
   return (
     <div className="border-b">
       <Container>
-        <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
+        <div className="relative px-2 sm:px-0.5 lg:px-1 flex h-16 items-center">
           <Link href="/" className="ml-4 flex lg:ml-8 gap-x-2">
-            <p className="font-bold text-xl">LAZYSTORE</p>
+            <p className="font-bold text-2xl">LAZYSTORE</p>
           </Link>
           <MainNav data={categories} />
         </div>

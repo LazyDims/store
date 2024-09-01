@@ -12,13 +12,12 @@ const HomePage = async () => {
 
   return (
     <Container>
-      <div className="flex items-center justify-center pt-4 font-3xl font-bold">
-        Welcome To LAZYSTORE
+      <div className="flex items-center justify-center pt-10 pb-10 text-xl sm:text-2xl lg:text-3xl font-bold">
+        WELCOME TO LAZYSTORE
       </div>
-        <Banner data={banner} />
-        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-          <ProductList title="Produk Unggulan" items={products} />
-        </div>
+      <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+      <ProductList title="Produk Unggulan" items={products}/>
+      </div>
     </Container>
   );
 };
